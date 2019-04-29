@@ -1,0 +1,141 @@
+<html lang="en">
+
+<head>
+  <meta charSet="utf-8">
+  <title>PHAROS AR, an interactive journey by Childish Gambino</title>
+  <meta name="description" content="Trust the Great Algorythm. Experience PHAROS AR on iPhone and Android.">
+
+  <meta property="og:url" content="ar.pharors.earth">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="PHAROS AR, an interactive journey by Childish Gambino">
+  <meta property="og:description" content="Trust the Great Algorythm. Experience PHAROS AR on iPhone and Android.">
+  <meta property="og:image" content="http://ar.pharos.earth/image/PHAROS.jpg">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:site" content="ar.pharos.earth">
+  <meta name="twitter:title" content="PHAROS AR, an interactive journey by Childish Gambino">
+  <meta name="twitter:description" content="Trust the Great Algorythm. Experience PHAROS AR on iPhone and Android.">
+  <meta name="twitter:image" content="http://ar.pharos.earth/image/PHAROS.jpg">
+
+  <meta httpEquiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+  <meta name="viewport" content="width=device-width, user-scalable=no">
+  <link rel="icon" href="/favicon.png" type="image/png">
+  <link rel="stylesheet" href="/asset/bundle.css">
+</head>
+
+<body>
+  <div id="app">
+
+    <!-- partial: component/layout/app/app.hbs -->
+    <div data-component="app-root">
+
+      <!-- partial: component/block/share/share.hbs -->
+      <div class="share" data-component="share" data-ios-link="https://itunes.apple.com/app/id1457739716" data-android-link="https://play.google.com/store/apps/details?id&#x3D;com.proverse.algorythm">
+
+        <!-- partial: component/general/responsive-image/responsive-image.hbs -->
+        <picture class="responsive-image background" data-component="responsive-image">
+          <source media="(max-width: 767px)" srcset="/image/mobile-background-image.jpg">
+          <img src="/image/desktop-background-image.jpg" alt="Algorythm" />
+        </picture>
+        <!-- / component/general/responsive-image/responsive-image.hbs -->
+        <ul class="call-to-actions">
+          <li class="call-to-action">
+
+            <!-- partial: component/general/primary-button/primary-button.hbs -->
+            <a class="primary-button" data-component="primary-button" href="https://itunes.apple.com/app/id1457739716" target="_blank">
+              <svg>
+                <defs>
+                  <filter id="stroke-glow">
+                    <feFlood result="flood" flood-color="#ed2180" flood-opacity="1"></feFlood>
+                    <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
+                    <feMorphology in="mask" result="dilated" operator="dilate" radius="2"></feMorphology>
+                    <feGaussianBlur in="dilated" result="blurred" stdDeviation="3"></feGaussianBlur>
+                    <feMerge>
+                      <feMergeNode in="blurred"></feMergeNode>
+                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                  </filter>
+                  <filter id="flare-glow">
+                    <feFlood result="flood" flood-color="#ffffff" flood-opacity="0.7"></feFlood>
+                    <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
+                    <feMorphology in="mask" result="dilated" operator="dilate" radius="3"></feMorphology>
+                    <feGaussianBlur in="dilated" result="blurred" stdDeviation="3"></feGaussianBlur>
+                    <feMerge>
+                      <feMergeNode in="blurred"></feMergeNode>
+                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                  </filter>
+                </defs>
+                <rect class="stroke" stroke-width="3px" filter="url(#stroke-glow)" />
+                <rect class="flare" stroke-width="3px" filter="url(#flare-glow)" />
+              </svg>
+              <span class="label top">Download for</span>
+              <span class="label bottom">iPhone</span>
+            </a>
+            <!-- / component/general/primary-button/primary-button.hbs -->
+          </li>
+          <li class="call-to-action">
+
+            <!-- partial: component/general/primary-button/primary-button.hbs -->
+            <a class="primary-button" data-component="primary-button" href="https://play.google.com/store/apps/details?id&#x3D;com.proverse.algorythm" target="_blank">
+              <svg>
+                <defs>
+                  <filter id="stroke-glow">
+                    <feFlood result="flood" flood-color="#ed2180" flood-opacity="1"></feFlood>
+                    <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
+                    <feMorphology in="mask" result="dilated" operator="dilate" radius="2"></feMorphology>
+                    <feGaussianBlur in="dilated" result="blurred" stdDeviation="3"></feGaussianBlur>
+                    <feMerge>
+                      <feMergeNode in="blurred"></feMergeNode>
+                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                  </filter>
+                  <filter id="flare-glow">
+                    <feFlood result="flood" flood-color="#ffffff" flood-opacity="0.7"></feFlood>
+                    <feComposite in="flood" result="mask" in2="SourceGraphic" operator="in"></feComposite>
+                    <feMorphology in="mask" result="dilated" operator="dilate" radius="3"></feMorphology>
+                    <feGaussianBlur in="dilated" result="blurred" stdDeviation="3"></feGaussianBlur>
+                    <feMerge>
+                      <feMergeNode in="blurred"></feMergeNode>
+                      <feMergeNode in="SourceGraphic"></feMergeNode>
+                    </feMerge>
+                  </filter>
+                </defs>
+                <rect class="stroke" stroke-width="3px" filter="url(#stroke-glow)" />
+                <rect class="flare" stroke-width="3px" filter="url(#flare-glow)" />
+              </svg>
+              <span class="label top">Download for</span>
+              <span class="label bottom">Android</span>
+            </a>
+            <!-- / component/general/primary-button/primary-button.hbs -->
+          </li>
+        </ul>
+        <footer>
+          <ul class="logos">
+            <li class="logo ">
+              <img src="/image/ar-core.png" alt="">
+            </li>
+            <li class="logo">
+              <img src="/image/unity.png" alt="">
+            </li>
+            <li class="logo">
+              <img src="/image/rw.png" alt="">
+            </li>
+          </ul>
+          <div class="footer-legal">
+            <a class="legal-copy" href="privacy">Privacy</a>
+            <p class="legal-copy">|</p>
+            <a class="legal-copy" href="terms-of-use">Terms of Use</a>
+          </div>
+        </footer>
+      </div>
+      <!-- / component/block/share/share.hbs -->
+    </div>
+    <!-- / component/layout/app/app.hbs -->
+
+  </div>
+
+  <script src="/asset/bundle.js"></script>
+</body>
+
+</html>
